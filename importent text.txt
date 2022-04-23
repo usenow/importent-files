@@ -1,0 +1,15 @@
+*********** BEST THINGS FOR WEB DEVELOPER ***************
+
+1.	docker
+2.	docker hub
+3.	Nginx server
+4. 	DevOps
+5.	TravisCI or CircleCI
+6.	Continuous Integration and Deployment (CI/CD)
+7.	back end tech stack
+8.	CDN
+
+
+
+
+LINK::	https://www.freecodecamp.org/news/learn-backend-development/

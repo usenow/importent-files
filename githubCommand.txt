@@ -1,0 +1,31 @@
+1.	git checkout    ,   git checkout -f         //  getback all file changed and come last commited
+2.	git log ,   git log -p -[outnumber]ex-> -1,-2,-3,-4,-5
+3.	git commit ,   
+    git commit -m "Your msg here to commit",
+    git commit -a -m "your commit message"  //skipped staging area and direct commit
+    NOTE: This command used for when we changed little in file
+          But it is beganner not for pofessional
+4.	git add ,   git add -A
+5.	git config
+6.	git status
+7.	git diff            //it shows different between staging area and working area of file
+8.  git diff --staged   //it shows different between staging area and last commited
+9.  git rm <file_name>  // rm file parmanent from staging and also untracked area
+10. git rm --cached <file_name> // rm file from staging area but stay on untracked area 
+11. git status -s       // it check file status in working area & staging area
+12. touch .gitignore    // it makes .gitignore name directry
+    NOTE:   if you want ignore file or folder just u can add some things in .gitignore file
+            likes as: 
+            1. gitlog   // it ignore gitlog in all place
+            2. /gitlog  // it ignore in root directry but not in folder
+            3. *.log    // it ignore all file everywhere with .log extansion
+            4. *.cpp    // like as *.log
+13. git branch <branch_name> // create new branch
+14. git checkout <branch_name> // exchange branch 
+15. git merge <branch_name>    // First you will have to come back on master branch then merge branch to master branch
+16. git branch          // see all exits branches and also active branch      
+17. git remote add orign <url> 
+18. git push orign <branch_name>
+19. git push -u orign <branch_name>
+    git push            // Next time use this only, By default it captured master branch
+20. git clone <url>

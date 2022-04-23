@@ -1,0 +1,14 @@
+1.  Browser.msgBox(title,prompt,button)
+2.  Browser.inputBox()
+3.  Browser.button.button_names
+4.  SpreadsheetApp.getActiveSpreadsheet().toast("your message")
+5.  DocumentApp.getUi()
+    .createMenu("menu_name")
+    .addItem("iten_name","function name")
+    .addSeperator() // add horizontal line
+    .addToUi();
+6.  SpreadsheetApp.getUi().alert(title,prompt,button)
+7.  HtmlService.createHtmlOutput("your html code here")  //  like as: <p>your paragraph</p>
+    .setTitle();
+8.  HtmlService.createHtmlOutputFromFile("your HTML file name")
+9.  SpreadsheetApp.getUi().showSidebar();
