@@ -14,4 +14,12 @@
 9.  SpreadsheetApp.getUi().showSidebar("HTML file name").setTitle("Title here");
 10. SpreadsheetApp.getUi().showModalDialog("html file name","title here");
 11. SpreadsheetApp.getUi().showModelessDialog("html file name","title here");
+12. SpreadsheetApp.getUi().prompt("Prompt Window","Plz Enter your Name",ui.ButtonSet.YES_NO);
+    .getSelectedButton()
+    .getResponseText()
+13. SpreadsheetApp.getActiveSpreadsheet()
+    .getSheetByName("Sheet name here").getRange("select Range here").getValues();
+     Or
+    .getRange('select Range here').getValues();
+14. SpreadsheetApp.getActiveSpreadsheet().getSheetValues("set rows and colums"); // likes as (2,2,3,3)
 
