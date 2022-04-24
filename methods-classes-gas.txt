@@ -11,4 +11,7 @@
 7.  HtmlService.createHtmlOutput("your html code here")  //  like as: <p>your paragraph</p>
     .setTitle();
 8.  HtmlService.createHtmlOutputFromFile("your HTML file name")
-9.  SpreadsheetApp.getUi().showSidebar();
+9.  SpreadsheetApp.getUi().showSidebar("HTML file name").setTitle("Title here");
+10. SpreadsheetApp.getUi().showModalDialog("html file name","title here");
+11. SpreadsheetApp.getUi().showModelessDialog("html file name","title here");
+
